@@ -33,7 +33,11 @@
   <p>⏰ 最喜欢干的事情是明天再干</p>
 </blockquote>
 
-<img src="./github-metrics/base.svg" width="100%" alt="metrics" loading="lazy">
+<div align="center">
+
+<img src="./github-metrics/base.svg" width="72%" alt="metrics" loading="lazy">
+
+</div>
 
 <table border="0">
   <tr>

@@ -25,11 +25,12 @@ jobs:
 
           # 这就是那张显示 joined GitHub / Activity / Community / Stars 的卡片
           template: classic
-          # 默认是深色字 + 透明底，在 GitHub 深色主题下看不见，必须指定 dark
-          theme: dark
+          # 默认是深色字 + 透明底，在 GitHub 深色主题下看不见，必须指定主题
+          theme: github_dark
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
-          config_display: large
+          # 不要用 large —— 它输出 960px 宽，塞进 README 的 896px 里反而是缩小的，
+          # 字会比设计值还小。regular 是 480px，显示时被放大，字才看得清。
 
           # 输出到 github-metrics/base.svg，README 里直接引用这个相对路径
           filename: github-metrics/base.svg

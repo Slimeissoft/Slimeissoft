@@ -33,10 +33,11 @@
   <p>⏰ 最喜欢干的事情是明天再干</p>
 </blockquote>
 
+<img src="./github-metrics/base.svg" width="100%" alt="metrics" loading="lazy">
+
 <table border="0">
   <tr>
     <td valign="top" width="54%">
-      <img src="./github-metrics/base.svg" width="100%" alt="metrics" loading="lazy">
       <p><b>现在在做</b>　PicFlow —— 一个不肯把图片传到别人服务器上的本地图库</p>
       <p><b>最近在写</b>　中文 / English / 日本語 三语的个人博客，零构建，CSS 全手写</p>
       <p><b>偷偷在做</b>　把一小时的播客，压成十分钟能读完的 skills</p>

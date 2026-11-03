@@ -25,6 +25,8 @@ jobs:
 
           # 这就是那张显示 joined GitHub / Activity / Community / Stars 的卡片
           template: classic
+          # 默认是深色字 + 透明底，在 GitHub 深色主题下看不见，必须指定 dark
+          theme: dark
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
           config_display: large

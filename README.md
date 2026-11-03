@@ -33,21 +33,16 @@
   <p>⏰ 最喜欢干的事情是明天再干</p>
 </blockquote>
 
-<div align="center">
-
-<img src="./github-metrics/base.svg" width="72%" alt="metrics" loading="lazy">
-
-</div>
-
 <table border="0">
   <tr>
-    <td valign="top" width="54%">
+    <td valign="top" width="58%">
+      <img src="./github-metrics/base.svg" width="100%" alt="metrics" loading="lazy">
       <p><b>现在在做</b>　PicFlow —— 一个不肯把图片传到别人服务器上的本地图库</p>
       <p><b>最近在写</b>　中文 / English / 日本語 三语的个人博客，零构建，CSS 全手写</p>
       <p><b>偷偷在做</b>　把一小时的播客，压成十分钟能读完的 skills</p>
       <p><b>闲的时候</b>　随便看看</p>
     </td>
-    <td valign="top" width="46%">
+    <td valign="top" width="42%">
       <img src="./assets/card.jpg" width="100%" alt="card" loading="lazy">
       <p align="center">
         放一只邮箱在这里……
@@ -99,8 +94,12 @@
 <br><br>
 
 <a href="https://github.com/Slimeissoft/PicFlow">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Slimeissoft&repo=PicFlow&locale=zh&hide_border=true&theme=radical" alt="PicFlow" loading="lazy" />
+  <img src="./assets/picflow-icon.png" width="88" alt="PicFlow" />
 </a>
+
+<br><br>
+
+<a href="https://github.com/Slimeissoft/PicFlow"><b>PicFlow</b></a>　Windows 桌面图片整理应用 · Electron + AI 智能分类
 
 </div>
 

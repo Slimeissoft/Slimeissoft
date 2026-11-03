@@ -93,16 +93,6 @@
 
 <br><br>
 
-<a href="https://github.com/Slimeissoft/PicFlow">
-  <img src="./assets/picflow-icon.png" width="88" alt="PicFlow" />
-</a>
-
-<br><br>
-
-<a href="https://github.com/Slimeissoft/PicFlow"><b>PicFlow</b></a>
-
-<br><br>
-
 <img src="./assets/arknights-card.jpg" width="100%" alt="Arknights" loading="lazy">
 
 </div>

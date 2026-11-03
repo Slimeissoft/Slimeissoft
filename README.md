@@ -101,6 +101,10 @@
 
 <a href="https://github.com/Slimeissoft/PicFlow"><b>PicFlow</b></a>　Windows 桌面图片整理应用 · Electron + AI 智能分类
 
+<br><br>
+
+<img src="./assets/arknights-card.jpg" width="100%" alt="Arknights" loading="lazy">
+
 </div>
 
 <div align="left">

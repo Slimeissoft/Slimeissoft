@@ -4,7 +4,7 @@
 
 <img src="./assets/banner.jpg" width="100%" alt="banner" loading="lazy">
 
-> 写代码，也写过程。　　配色调子只有一种：不要黑白。
+> 不知道怎么写先空着
 
 ![Blender Badge](https://img.shields.io/badge/Blender-F5792A?logo=blender&logoColor=fff&style=flat)
 ![After Effects Badge](https://img.shields.io/badge/After%20Effects-9999FF?logo=adobeaftereffects&logoColor=fff&style=flat)

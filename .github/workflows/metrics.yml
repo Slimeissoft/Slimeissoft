@@ -1,0 +1,33 @@
+name: Metrics
+
+on:
+  schedule:
+    # 每天 UTC 00:00（北京时间 08:00）
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate profile metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # base 模板用的就是 GITHUB_TOKEN，够跑。
+          # 想统计私有仓库的贡献，换成你自己建的 PAT（classic，勾 repo + read:user），
+          # 存进 Settings → Secrets → Actions，名字叫 METRICS_TOKEN，
+          # 再把下面这行改成 ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Slimeissoft
+
+          # 这就是那张显示 joined GitHub / Activity / Community / Stars 的卡片
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Shanghai
+          config_display: large
+
+          # 输出到 github-metrics/base.svg，README 里直接引用这个相对路径
+          filename: github-metrics/base.svg
